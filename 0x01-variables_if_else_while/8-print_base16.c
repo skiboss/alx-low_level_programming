@@ -6,8 +6,7 @@
  * main - Entry point
  *
  * Return: Always 0 (Success)
- */
- 
+ */ 
 int main(void)
 {
 	int hex;
@@ -20,7 +19,7 @@ int main(void)
 	for (i = 'a'; i <= 'f'; i++)
 	{
 		putchar(i);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
