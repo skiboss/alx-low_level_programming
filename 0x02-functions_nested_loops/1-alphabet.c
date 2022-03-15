@@ -14,7 +14,7 @@ int main(void)
 
 void print_alphabet(void)
 {
-	int n;
+	int i;
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
