@@ -12,3 +12,6 @@ void print_alphabet_x10(void);
 
 /* prototype for checking islower function */
 int _islower(int c);
+
+/* _isalpha - a function that checks if an argument is an alphabet or not */
+int _isalpha(int c);
