@@ -9,3 +9,6 @@ void print_alphabet(void);
 
 /* prototype of print _alphabet_x10 function */
 void print_alphabet_x10(void);
+
+/* prototype for checking islower function */
+int _islower(int c);
