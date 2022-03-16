@@ -15,3 +15,6 @@ int _islower(int c);
 
 /* _isalpha - a function that checks if an argument is an alphabet or not */
 int _isalpha(int c);
+
+/* prototype to check the sign of a number */
+int print_sign(int n);
