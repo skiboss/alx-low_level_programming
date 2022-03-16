@@ -3,13 +3,12 @@
 #include "main.h"
 /**
  * _abs - inbuilt function to convert argument to its absolute value
- *
+ * @x: argument input
  * Return: 0 (Success)
  */
 int _abs(int x)
 {
-	int result;
+	int x;
 
-	result = abs(x);
-	putchar(x);
+	return (abs(x));
 }
