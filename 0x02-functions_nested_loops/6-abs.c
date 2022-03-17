@@ -4,11 +4,9 @@
 /**
  * _abs - inbuilt function to convert argument to its absolute value
  * @x: argument input
- * Return: 0 (Success)
+ * Return: absolute (Success)
  */
 int _abs(int x)
 {
-	int x;
-
 	return (abs(x));
 }
