@@ -21,3 +21,6 @@ int print_sign(int n);
 
 /* function prototype to print the absolute value of the input */
 int _abs(int x);
+
+/* function prototype to add two integers */
+int add(int a, int b);
