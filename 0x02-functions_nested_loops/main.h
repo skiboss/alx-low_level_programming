@@ -24,3 +24,12 @@ int _abs(int x);
 
 /* function prototype to add two integers */
 int add(int a, int b);
+
+/* funtion prototype to print last digit of an input */
+int print_last_digit(int c);
+
+/* function prototype to print out the time in minute and second for everyday */
+void jack_bauer(void);
+
+/* function prototype to print the times table */
+void times_table(void);
