@@ -33,3 +33,6 @@ void jack_bauer(void);
 
 /* function prototype to print the times table */
 void times_table(void);
+
+/* function that prints all natural numbers from n to 98 */
+void print_to_98(int n);
