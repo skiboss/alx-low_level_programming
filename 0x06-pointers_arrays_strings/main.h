@@ -19,4 +19,7 @@ char *string_toupper(char *n);
 /* protocol to capitalize all words of a string */
 char *cap_string(char *n);
 
+/* protocol for leet */
+char *leet(char *n);
+
 #endif /* MAIN_H */
