@@ -15,10 +15,10 @@ char *leet(char *n)
 	{
 		for (s = 0; s <= 9; s++)
 		{
-			if (n[i] == find[s])
+			if (n[i] == search[s])
 			{
 				n[i] = replace[s / 2];
-				x = 9;
+				s = 9;
 			}
 		}
 	}
