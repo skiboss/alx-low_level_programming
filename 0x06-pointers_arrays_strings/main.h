@@ -16,4 +16,7 @@ void reverse_array(int *a, int n);
 /* protocol to change string to uppercase */
 char *string_toupper(char *n);
 
+/* protocol to capitalize all words of a string */
+char *cap_string(char *);
+
 #endif /* MAIN_H */
