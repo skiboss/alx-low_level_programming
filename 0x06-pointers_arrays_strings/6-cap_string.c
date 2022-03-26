@@ -8,11 +8,10 @@
 char *cap_string(char *n)
 {
 	int i, s;
-	int upper;
-	int separators[] = {',', '.', ';', '?'.'"', '{','}','(', ')',
-	       	' ', '\n', '\t'}
+	int upper = 32;
+	int separators[] = {',', '.', ';', '?','"', '{','}','(', ')',
+	       	' ', '\n', '\t'};
 
-	upper = 32;
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
