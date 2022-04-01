@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** squareroot - iterates from 1 to n
+/**
+ * squareroot - iterates from 1 to n
  * @a: n
  * @b: iteration
  * Return: 1
@@ -10,7 +11,7 @@ int squareroot(int a, int b)
 	if (b * b == a)
 		return (b);
 	if (b * b > a)
-	       return (-1);
+		return (-1);
 	return (squareroot(a, b + 1));
 }
 /**
