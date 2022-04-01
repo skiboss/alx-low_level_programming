@@ -8,9 +8,9 @@
  */
 int palin(char *s, int l)
 {
-	if (*a == 0)
+	if (*s == 0)
 		return (l - 1);
-	return (palin(a + 1, l + 1));
+	return (palin(s + 1, l + 1));
 }
 /**
  * palind - comparation
