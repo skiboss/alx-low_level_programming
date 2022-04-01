@@ -2,7 +2,7 @@
 
 /**
  * palin - gets the length
- * @a: string input
+ * @s: string input
  * @l: integer
  * Return: 1
  */
