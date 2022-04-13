@@ -14,12 +14,12 @@ int main(int argc, char **argv)
 	if (argc != 3)
 	{
 		printf("%s\n", "Error");
-		ex = 1;
+		error = 1;
 	}
 	else
 	{
 		product = atoi(argv[1]) * atoi(argv[2]);
-		printf("%i\n", n);
+		printf("%i\n", product);
 	}
-	return (ex);
+	return (error);
 }
