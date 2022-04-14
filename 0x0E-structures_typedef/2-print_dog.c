@@ -8,7 +8,7 @@
 #include "dog.h"
 
 /**
- * print_dogv-v
+ * print_dog - print dog details
  * @d: the particular dog
  */
 void print_dog(struct dog *d)
