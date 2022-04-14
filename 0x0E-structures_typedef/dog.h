@@ -13,4 +13,8 @@ typedef struct dog
 	float age;
 	char *owner;
 } Dog;
+
+// prototype for function that initialize a variable of the dog structure
+void init_dog(struct dog *d, char *name, float age, char *owner);
+
 #endif /* _DOG_H */
