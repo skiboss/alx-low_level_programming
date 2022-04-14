@@ -12,7 +12,7 @@ typedef struct dog
 	char *name;
 	float age;
 	char *owner;
-} Dog;
+} dog;
 
 // prototype for function that initialize a variable of the dog structure
 void init_dog(struct dog *d, char *name, float age, char *owner);
