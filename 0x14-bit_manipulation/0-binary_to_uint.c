@@ -25,8 +25,8 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		}
 		val <<= 1;
-		val += b[i] - '0';
-		i++;
+		val += b[s] - '0';
+		s++;
 	}
 	return (val);
 }
