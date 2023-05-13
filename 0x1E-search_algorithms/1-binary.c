@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "search_algos.h"
 
 /**
  * binary_search - searches for specific value in sorted arrays
